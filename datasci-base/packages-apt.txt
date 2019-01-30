@@ -9,4 +9,5 @@ neovim
 pandoc
 texlive-fonts-recommended
 texlive-latex-base
+texlive-latex-extra
 tmux
