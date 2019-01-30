@@ -1,6 +1,7 @@
 bash-completion
 ca-certificates
 git
+libmagick++-dev
 libsecret-1-dev
 locales
 lmodern
