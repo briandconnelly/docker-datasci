@@ -1,0 +1,12 @@
+black
+boto3
+flake8
+future
+ipython
+numpy
+pandas
+psycopg2
+pyyaml
+rpy2
+scipy
+six

@@ -1,0 +1,11 @@
+bash-completion
+ca-certificates
+git
+libsecret-1-dev
+locales
+lmodern
+neovim
+pandoc
+texlive-fonts-recommended
+texlive-latex-base
+tmux
