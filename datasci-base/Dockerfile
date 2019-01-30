@@ -32,7 +32,7 @@ RUN echo "deb http://cran.rstudio.com/bin/linux/debian stretch-cran35/" >> /etc/
   && ln -s /usr/local/lib/R/site-library/littler/examples/install2.r /usr/local/bin/install2.r \
   && ln -s /usr/local/lib/R/site-library/littler/examples/installGithub.r /usr/local/bin/installGithub.r \
   && ln -s /usr/local/lib/R/site-library/littler/bin/r /usr/local/bin/r \
-  && xargs -a /tmp/packages-r.txt install2.r --error \
+  && xargs -a /tmp/packages-r.txt install2.r --deps TRUE --error \
   ## Install Python packages -----------------------------------
   && pip install -U pip setuptools wheel \
   && pip install --no-cache-dir -r /tmp/packages-python.txt \

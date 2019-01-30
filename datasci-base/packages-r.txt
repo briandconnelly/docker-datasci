@@ -2,6 +2,7 @@ assertthat
 aws.s3
 boot
 broom
+Cairo
 caret
 cli
 clipr
